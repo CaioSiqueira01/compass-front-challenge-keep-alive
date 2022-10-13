@@ -1,0 +1,135 @@
+@import url(../root.css);
+
+body{
+    background: var(--gradient-gray);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container__login{
+    display: flex;
+    margin-left: 187px;
+}
+
+.login__section{
+    margin-top: 100px;
+}
+
+.login__text{
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 17px;
+}
+
+.login__title{
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 76px;
+    color: var(--login-text);
+}
+
+.login__paragraph{
+    width: 301px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--login-text);
+}
+
+.login__form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.form__title{
+    font-weight: 400;
+    font-size: 1.875rem;
+    width: 81px;
+    margin-bottom: 20px;
+    color: var(--login-text);
+}
+
+.form__input{
+    display: flex;
+    width: 50vw;
+}
+
+.input__username,.input__password{
+    width: 379px;
+    height: 60px;
+    border: 1px solid var(--white);
+    border-radius: 50px;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+.input__username-error,.input__password-error{
+    border: 1px solid var(--login-error);
+}
+
+.input__username::placeholder,.input__password::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.input__username__icon, .input__password__icon{
+    position: relative;
+    bottom: 10px;
+    left: 15px;
+}
+
+.input__username__icon-active, .input__password__icon-active{
+    position: relative;
+    bottom: 10px;
+    left: -40px;
+}
+
+.form__error{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form__error__text{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20.28px;
+    text-align: center;
+    width: 283px;
+    color: var(--login-error);
+}
+
+.form__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 3px;
+}
+
+.button{
+    height: 67px;
+    width: 379px;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--white);
+    line-height: 23px;
+    border-radius: 50px;
+    background: var(--btn-color);
+    border: none;
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.img{
+    position: absolute;
+    right: 0px;
+    width: 50vw;
+    height: 100vh;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login - Compass</title>
+        <link rel="stylesheet" href="assets/styles/reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/styles/root.css">
+        <link rel="stylesheet" href="assets/styles/login/login.css">
+    </head>
+    <body>
+       <main class="container__login">
+            <section class="login__section">
+                <div class="login__text">
+                    <h2 class="login__title">Olá,</h2>
+                    <p class="login__paragraph">Para continuar navegando de forma segura, efetue o login na rede.</p>
+                </div>
+                <form class="login__form">
+                    <h3 class="form__title">Login</h3>
+
+                    <div class="form__input">
+                        <input  class="input__username" type="text" placeholder="Usuário">
+                        <img src="./assets/imgs/login/icons/username-login.svg" alt="" class="input__username__icon">
+                    </div>
+                    
+                    <div class="form__input">
+                        <input  class="input__password" type="password" placeholder="Senha">
+                        <img src="./assets/imgs/login/icons/password-login.svg" alt="" class="input__password__icon">
+                    </div>
+
+                    <div class="form__error">
+                        <p class="form__error__text">Ops, usuário ou senha inválidos. Tente novamente!</p>
+                    </div>
+
+                    <div class="form__button">
+                        <button class="button">Continuar</button>
+                    </div>
+                </form>
+            </section>
+            <figure class="login__image">
+                <img src="./assets/imgs/login/background/login-background.png" alt="" class="img">
+            </figure>
+       </main>
+    </body>
+</html>
