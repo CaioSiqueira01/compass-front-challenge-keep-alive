@@ -15,7 +15,7 @@ var time = setInterval(() => {
             location.reload();
         } else if (result === false){
             localStorage.clear();
-            document.location.pathname = "../login.html"
+            document.location.pathname = "../index.html"
         }
     }
 }, 1000)
