@@ -6,4 +6,6 @@
     --white: #FFFFFF;
     --primary-text: #C12D18;
     --secondary-text: #222222;
+    --background-footer: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+    --link-color: #C13216;
 }

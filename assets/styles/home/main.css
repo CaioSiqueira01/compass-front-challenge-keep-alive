@@ -1,0 +1,45 @@
+@import url(../root.css);
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.compass__logo-main{
+    width: 40%;
+}
+
+.compass__logo__img-main{
+    width: 95%;
+}
+
+.mission__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    height: 316px;
+    width: 100vw;
+    padding-right: 80px;
+}
+
+.mission__presentation{
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--primary-text);
+    padding-bottom: 3px;
+}
+
+.mission__title{
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--primary-text);
+    padding-bottom: 8px;
+}
+
+.mission__paragraph{
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--secondary-text);
+}
