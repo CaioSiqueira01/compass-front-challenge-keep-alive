@@ -21,11 +21,17 @@ button.addEventListener("click", (event) =>{
         error.setAttribute("style", "display: flex;");
         usernameIcon.classList.remove("input__username__icon-active");
         passwordIcon.classList.remove("input__password__icon-active");
-    } else {
+    } else if ((inputUsername.value === loginAdmin.username) && (inputPassword.value === loginAdmin.password)){
         inputUsername.setAttribute("style", "border: 1px solid var(--white);");
         inputPassword.setAttribute("style", "border: 1px solid var(--white);");
         error.setAttribute("style", "display: none;");
         document.location.pathname = "./pages/home.html";
+    } else {
+        inputUsername.setAttribute("style", "border: 1px solid var(--login-error);");
+        inputPassword.setAttribute("style", "border: 1px solid var(--login-error);");
+        error.setAttribute("style", "display: flex;");
+        usernameIcon.classList.remove("input__username__icon-active");
+        passwordIcon.classList.remove("input__password__icon-active");
     }
 
 

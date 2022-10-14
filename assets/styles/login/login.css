@@ -78,12 +78,33 @@ body{
     position: relative;
     bottom: 10px;
     left: 15px;
+    animation: out 1s;
+}
+
+@keyframes out {
+    from {
+        left: -40px;
+    }
+    to {
+        left: 15px;
+    }
+
 }
 
 .input__username__icon-active, .input__password__icon-active{
     position: relative;
     bottom: 10px;
     left: -40px;
+    animation: in 1s;
+}
+
+@keyframes in {
+    from {
+        left: 15px;
+    }
+    to {
+        left: -40px;
+    }
 }
 
 .form__error{
