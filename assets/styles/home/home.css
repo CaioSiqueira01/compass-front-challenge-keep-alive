@@ -3,3 +3,66 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 169px;
+}
+
+.home__logo{
+    padding-top: 25px;
+    padding-left: 40px;
+}
+
+.time{
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.time__hour{
+    font-weight: 700;
+    font-size: 144px;
+    color: var(--secondary-text);
+}
+
+.time__date{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--secondary-text);
+}
+
+.geolocator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    padding-right: 41px;
+}
+
+.geolocator__localization{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--secondary-text);
+}
+
+.geolocator__temperature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temperature__icon{
+    width: 34px;
+    height: 34px;
+}
+
+.temperature__measurement{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--secondary-text);
+}
