@@ -65,6 +65,8 @@ footer {
 .logout__link{
     text-decoration: none;
     width: 50%;
+    background: var(--background-footer);
+    cursor: pointer;
 }
 
 .navegation__div{

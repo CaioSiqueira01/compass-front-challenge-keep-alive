@@ -46,7 +46,7 @@ button.addEventListener("click", (event) =>{
     inputPassword.value = "";
 })
 
-inputUsername.addEventListener("change", (event) =>{
+inputUsername.addEventListener("keyup", (event) =>{
     if(event.target.value.length > 0){
         usernameIcon.classList.add("input__username__icon-active");
     } else {
@@ -54,7 +54,7 @@ inputUsername.addEventListener("change", (event) =>{
     }
 })
 
-inputPassword.addEventListener("change", (event) => {
+inputPassword.addEventListener("keyup", (event) => {
     if(event.target.value.length > 0){
         passwordIcon.classList.add("input__password__icon-active");
     } else {
